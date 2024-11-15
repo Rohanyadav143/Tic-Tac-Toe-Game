@@ -1,11 +1,24 @@
-*{
+ *{
     margin: 0%;
     padding: 0%;
 }
 
 body{
-    background-color:#548687;
+    background-color:#151616;
     text-align: center;
+}
+
+h1{
+    padding-top: 4%;
+    font-weight: bolder;
+    font-size: 7vh;
+}
+
+.mainone{
+    height: 120%;
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(100, 145, 145);
 }
 
 .container{
@@ -26,37 +39,38 @@ body{
 }
 
 .box{
-    height: 20vmin;
-    width: 20vmin;
+    height: 17vmin;
+    width: 17vmin;
     border-radius: 13px;
     border: none;
-    font-size: 10vmin;
-    color:aqua;
-    background-color: beige;
+    font-size: 10vh;
+    font-weight: bold;
+    color:rgb(213, 215, 179);
+    background-color: rgb(0, 0, 0);
     box-shadow: 0 0 5rem rgba(05, 01,03,0.4);
+    cursor: pointer;
 }
 
-#btn{
+#btn,#new{
     padding: 1rem;
-    font-size: 1.5rem;
-    background-color: rgb(98, 81, 114);
-    color: rgb(177, 233, 86);
-    border:none;
+    font-size: 6rem;
+    background-color: rgb(228, 223, 223);
+    color: rgb(0, 0, 0);
+    border:0.3vh solid rgb(255, 0, 0);
     border-radius: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 #new{
-    padding: 1rem;
-    font-size: 1.5rem;
-    background-color: rgb(98, 81, 114);
-    color: rgb(177, 233, 86);
-    border:none;
-    border-radius: 1rem;
+    margin-top: 2%;
 }
 
 #msg{
-    font-size: 8vmin;
-    font-size: 5mvin;
+    font-size: 6vh;
+    font-weight: bold;
+    color: rgb(237, 190, 18);
 }
 
 .msg-c{
